@@ -1,8 +1,10 @@
 "use client";
-import { cn } from "@/components/utils";
+import { cn } from "@/components/lib/ui/utils";
 import { Canvas, useFrame, useThree } from "@react-three/fiber";
 import React, { useMemo, useRef } from "react";
 import * as THREE from "three";
+import { Mesh } from 'three';
+
 
 export const CanvasRevealEffect = ({
   animationSpeed = 0.4,
