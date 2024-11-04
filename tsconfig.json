@@ -18,8 +18,9 @@
     "incremental": true,
     "paths": {
       "@/*": ["./*"],
-      "@/components/*": ["components/*"],
-      "@/ui/*": ["ui/*"]
+      "@/ui/*": ["ui/*"],
+      "@/utils/*": ["utils/*"],
+      "@/components/*": ["components/*"]
     },
     "plugins": [
       {

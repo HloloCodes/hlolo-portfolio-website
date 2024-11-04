@@ -1,1 +1,4 @@
-declare module 'three';
+declare module 'three' {
+  export class Mesh {
+  }
+}
